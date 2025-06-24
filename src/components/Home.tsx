@@ -45,7 +45,7 @@ const Home = () => {
 
           {/* Optional: Add some feature highlights */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12 pt-8 border-t border-gray-200">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center space-x-3">
               <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-purple-600"
@@ -60,7 +60,7 @@ const Home = () => {
               </span>
             </div>
 
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center space-x-3">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-blue-600"
@@ -73,7 +73,7 @@ const Home = () => {
               <span className="text-gray-700 font-medium">Έμπειρη Ομάδα</span>
             </div>
 
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center space-x-3">
               <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-green-600"
