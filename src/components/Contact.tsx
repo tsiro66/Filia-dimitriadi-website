@@ -23,10 +23,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    // Demo submission - just show alert
-    alert(
-      "Ευχαριστούμε! Το μήνυμά σας έχει σταλεί. Θα επικοινωνήσουμε μαζί σας σύντομα."
-    );
+
     setFormData({
       name: "",
       email: "",
@@ -213,7 +210,7 @@ const Contact = () => {
                 {/* Submit Button */}
                 <button
                   onClick={handleSubmit}
-                  className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-lg"
+                  className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-md md:text-lg"
                 >
                   Αποστολή Μηνύματος
                   <svg
