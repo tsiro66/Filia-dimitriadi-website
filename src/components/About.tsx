@@ -19,7 +19,7 @@ const About = () => {
             <div className="relative bg-white rounded-2xl shadow-xl">
               <img
                 src="/filia-about.jpg"
-                alt="Φιλία Δημητριάδη"
+                alt="Φιλία Δημητριάδου  "
                 className="w-full h-80 object-cover rounded-xl"
               />
             </div>
@@ -34,7 +34,7 @@ const About = () => {
               <p className="text-lg leading-relaxed text-gray-600">
                 Η{" "}
                 <span className="font-semibold text-purple-700">
-                  Φιλία Δημητριάδη
+                  Φιλία Δημητριάδου
                 </span>{" "}
                 και οι συνεργάτες της προσφέρουν εξειδικευμένη φροντίδα σε
                 παιδιά και εφήβους με ορμονικές διαταραχές, με έμφαση στην
@@ -51,7 +51,11 @@ const About = () => {
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path
+                      fillRule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clipRule="evenodd"
+                    />
                   </svg>
                 </div>
                 <span className="text-gray-700 font-medium">
@@ -66,7 +70,7 @@ const About = () => {
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
-                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
+                    <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
                   </svg>
                 </div>
                 <span className="text-gray-700 font-medium">
@@ -82,7 +86,7 @@ const About = () => {
                 smooth={true}
                 duration={500}
                 offset={-60}
-                className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 cursor-pointer inline-flex items-center"
+                className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 cursor-pointer inline-flex items-center focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
               >
                 Επικοινωνήστε μαζί μας
                 <svg
