@@ -28,7 +28,7 @@ const Home = () => {
           </p>
 
           {/* Enhanced button with gradient and better styling */}
-          <button className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 text-lg font-semibold rounded-4xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
+          <button className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
             Κλείστε Ραντεβού
             <svg
               className="inline-block w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
