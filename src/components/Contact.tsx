@@ -99,7 +99,6 @@ const Contact = () => {
           <h2 className="text-5xl font-bold text-purple-800 mb-4 tracking-tight">
             Επικοινωνία
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-500 mx-auto rounded-full mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Επικοινωνήστε μαζί μας για ραντεβού ή για οποιαδήποτε ερώτηση
             σχετικά με την υγεία του παιδιού σας.
