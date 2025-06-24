@@ -6,6 +6,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -22,5 +23,6 @@ createRoot(document.getElementById("root")!).render(
     <section id="contact" className="">
       <Contact />
     </section>
+    <Footer />
   </StrictMode>
 );

@@ -16,10 +16,10 @@ const Home = () => {
           {/* Added accent line */}
 
           <h1 className="text-left text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 tracking-tight">
-            Κλεισε ραντεβου με
+            Κλείστε ραντεβού με
           </h1>
           <h1 className="text-left text-4xl sm:text-5xl lg:text-6xl font-bold text-purple-800 mb-6 tracking-tight">
-            Φιλία Δημητριαδη
+            Φιλία Δημητριάδη
           </h1>
 
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-2xl leading-relaxed font-light mb-8">

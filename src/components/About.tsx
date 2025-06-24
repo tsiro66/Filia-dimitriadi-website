@@ -81,10 +81,10 @@ const About = () => {
                 to="contact"
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-60}
                 className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 cursor-pointer inline-flex items-center"
               >
-                Επικοινωνήστε Μαζί Μας
+                Επικοινωνήστε μαζί μας
                 <svg
                   className="inline-block w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
                   fill="currentColor"

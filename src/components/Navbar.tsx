@@ -36,7 +36,7 @@ const Navbar = () => {
 
               <div>
                 <div className="text-gray-800 text-sm sm:text-md font-semibold">
-                  Φιλία Δημητριαδη MD. FAAP
+                  Φιλία Δημητριάδου MD. FAAP
                 </div>
                 <div className="text-purple-700 text-sm sm:text-md font-medium">
                   Παιδοενδοκρινολόγος
@@ -54,13 +54,14 @@ const Navbar = () => {
               offset={-60}
               className="relative hover:text-purple-700 transition-all duration-300 ease-in-out cursor-pointer group"
             >
-              Ομαδα
+              Ομάδα
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-blue-500 group-hover:w-full transition-all duration-300"></span>
             </ScrollLink>
             <ScrollLink
               to="services"
               smooth={true}
               duration={500}
+              offset={-60}
               className="relative hover:text-purple-700 transition-all duration-300 ease-in-out cursor-pointer group"
             >
               Υπηρεσίες
@@ -88,6 +89,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
+              offset={-60}
               className="relative hover:text-purple-700 transition-all duration-300 ease-in-out cursor-pointer group"
             >
               Επικοινωνία
@@ -142,7 +144,7 @@ const Navbar = () => {
               className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-purple-700 hover:bg-purple-50 rounded-lg transition-all duration-300 cursor-pointer"
               onClick={closeMenu}
             >
-              Ομαδα
+              Ομάδα
             </ScrollLink>
             <ScrollLink
               to="services"
