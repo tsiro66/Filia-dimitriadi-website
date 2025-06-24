@@ -4,7 +4,7 @@ const Home = () => {
       <div
         className="hidden lg:block absolute right-0 top-0 h-full w-1/2 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('src/assets/homephoto.png')", // Fixed path
+          backgroundImage: "url('/homephoto.png')",
           backgroundPosition: "left center",
         }}
       >

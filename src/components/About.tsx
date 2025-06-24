@@ -16,7 +16,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-blue-400 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
             <div className="relative bg-white rounded-2xl shadow-xl">
               <img
-                src="/src/assets/filia-about.jpg"
+                src="/filia-about.jpg"
                 alt="Φιλία Δημητριάδη"
                 className="w-full h-80 object-cover rounded-xl"
               />

@@ -29,7 +29,7 @@ const Navbar = () => {
               {/* Fixed image path and improved styling */}
 
               <img
-                src="src/assets/filia-logo.png"
+                src="/filia-logo.png"
                 alt="Dr. Filia Dimitriadou Logo"
                 className="h-8 w-8 sm:h-10 sm:w-10 object-contain group-hover:scale-105 group-hover:rotate-90 transition-transform duration-300 ease-in-out"
               />
